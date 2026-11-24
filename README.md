@@ -14,14 +14,9 @@ Rohan Thakur, Zaman Sajid, Md Tanjin Amin, Joseph Kwon, Faisal Khan. (2026). RAI
 
 ## Research workflow
 
-```mermaid
-flowchart LR
-  A[CSTR simulation] --> B[Training data]
-  B --> C[GRU training]
-  C --> D[SINDy inference]
-  D --> E[Adaptive validation]
-  D --> F[Probabilistic risk analysis]
-```
+![RAISE | Adaptive safety enforcement](docs/architecture.svg)
+
+The controller uses an EKF estimate and multi-horizon MPC; the risk path uses predicted SINDy trajectories, fitted marginal distributions, copula-based fault probability and severity. The safety logic uses the resulting risk measures.
 
 ## Repository structure
 
