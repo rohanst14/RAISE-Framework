@@ -1,7 +1,31 @@
 cff-version: 1.2.0
-message: "If you refer to this repository, please cite the exact commit."
-title: "RAISE-Framework"
+message: "Please cite the associated research article when using this repository."
+title: "RAISE Framework"
+type: software
 authors:
-  - alias: rohanst14
-    website: https://github.com/rohanst14
+  - given-names: Rohan
+    family-names: Thakur
+    orcid: https://orcid.org/0000-0003-4108-5605
 repository-code: https://github.com/rohanst14/RAISE-Framework
+preferred-citation:
+  type: article
+  title: "RAISE: Real-Time Adaptive Artificial Intelligence System for Safety Enforcement"
+  authors:
+    - given-names: "Rohan"
+      family-names: "Thakur"
+    - given-names: "Zaman"
+      family-names: "Sajid"
+    - given-names: "Md Tanjin"
+      family-names: "Amin"
+    - given-names: "Joseph"
+      family-names: "Kwon"
+    - given-names: "Faisal"
+      family-names: "Khan"
+  journal: "Industrial & Engineering Chemistry Research"
+  year: 2026
+  volume: "65"
+  issue: "18"
+  start: 9519
+  end: 9539
+  doi: "10.1021/acs.iecr.6c00106"
+  url: "https://doi.org/10.1021/acs.iecr.6c00106"

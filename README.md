@@ -1,6 +1,16 @@
 # RAISE Framework
 
+**Real-Time Adaptive Artificial Intelligence System for Safety Enforcement**
+
 Research implementation combining continuous stirred-tank reactor (CSTR) simulation, gated recurrent units (GRU), sparse identification of nonlinear dynamics (SINDy), and probabilistic process-risk analysis.
+
+[![Paper](https://img.shields.io/badge/DOI-10.1021/acs.iecr.6c00106-blue)](https://doi.org/10.1021/acs.iecr.6c00106)
+
+## Publication
+
+Rohan Thakur, Zaman Sajid, Md Tanjin Amin, Joseph Kwon, Faisal Khan. (2026). RAISE: Real-Time Adaptive Artificial Intelligence System for Safety Enforcement. *Industrial & Engineering Chemistry Research*, 65(18), 9519–9539. [10.1021/acs.iecr.6c00106](https://doi.org/10.1021/acs.iecr.6c00106).
+
+[Publisher article](https://pubs.acs.org/doi/10.1021/acs.iecr.6c00106) | [DOI](https://doi.org/10.1021/acs.iecr.6c00106)
 
 ## Research workflow
 
@@ -41,4 +51,22 @@ Dependencies are inferred from imports; versions and runtime compatibility are n
 
 ## Citation
 
-Reference the repository URL and exact commit used. See [CITATION.cff](CITATION.cff). No software license or publication DOI is asserted.
+Please cite the associated paper and record the repository commit used. No software license is asserted.
+
+## BibTeX
+
+```bibtex
+@article{Thakur2026RAISE,
+  author = {Thakur, Rohan and Sajid, Zaman and Amin, Md Tanjin and Kwon, Joseph and Khan, Faisal},
+  title = {{RAISE: Real-Time Adaptive Artificial Intelligence System for Safety Enforcement}},
+  journal = {Industrial & Engineering Chemistry Research},
+  year = {2026},
+  volume = {65},
+  number = {18},
+  pages = {9519--9539},
+  doi = {10.1021/acs.iecr.6c00106},
+  url = {https://doi.org/10.1021/acs.iecr.6c00106}
+}
+```
+
+Machine-readable citation: [CITATION.cff](CITATION.cff).
