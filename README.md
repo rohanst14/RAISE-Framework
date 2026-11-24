@@ -12,9 +12,11 @@ Rohan Thakur, Zaman Sajid, Md Tanjin Amin, Joseph Kwon, Faisal Khan. (2026). RAI
 
 [Publisher article](https://pubs.acs.org/doi/10.1021/acs.iecr.6c00106) | [DOI](https://doi.org/10.1021/acs.iecr.6c00106)
 
-## Research workflow
+## Published framework
 
-![RAISE | Adaptive safety enforcement](docs/architecture.svg)
+![RAISE original framework figure](docs/RAISE-framework.png)
+
+*Original framework figure supplied by the author; associated publication: [10.1021/acs.iecr.6c00106](https://doi.org/10.1021/acs.iecr.6c00106).*
 
 The controller uses an EKF estimate and multi-horizon MPC; the risk path uses predicted SINDy trajectories, fitted marginal distributions, copula-based fault probability and severity. The safety logic uses the resulting risk measures.
 
