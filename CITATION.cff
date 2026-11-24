@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: "If you refer to this repository, please cite the exact commit."
+title: "RAISE-Framework"
+authors:
+  - alias: rohanst14
+    website: https://github.com/rohanst14
+repository-code: https://github.com/rohanst14/RAISE-Framework

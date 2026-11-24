@@ -1,0 +1,17 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.env
+.env.*
+!.env.example
+.DS_Store
+CSTR data profiles/
+save model/
+*.pth
+*.h5
+*.joblib
+*.npz
+*.npy
